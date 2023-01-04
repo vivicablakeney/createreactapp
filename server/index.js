@@ -29,7 +29,7 @@ app.get("/products", (_req, res)=> {
     })
 })
 
-app.listen(3000, ()=>{
+app.listen(3001, ()=>{
     console.log("Connected to backend!")
 })
 
