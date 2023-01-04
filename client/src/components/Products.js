@@ -14,7 +14,7 @@ const [filtered, setFiltered] = useState([]);
 useEffect(()=>{
 const fetchAllProducts = async()=>{
 try{
-const res = await axios.get('http://localhost:3000/products')
+const res = await axios.get('http://localhost:3001/products')
 setProducts(res.data);
 setFiltered(res.data);
 
