@@ -17,10 +17,10 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="image">
-        <img src="images/contact_img.png" alt="" />
+        <img src="images/keychain.jpg" alt="" />
       </div>
       <form action="" onSubmit={handleSubmit}>
-        <h3>contact us</h3>
+        <h3>Stay Connected!</h3>
         <input type="text" placeholder="your name" className="box"  value={name} onChange={(event) => setName(event.target.value)} required />
         <input type="email" placeholder="your email" className="box" value={email} onChange={(event) => setEmail(event.target.value)} required  />
         <input type="number" placeholder="your number" className="box" value={number} onChange={(event) => setNumber(event.target.value)} />

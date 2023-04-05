@@ -11,7 +11,7 @@ return (
 <a href="https://www.instagram.com/kylorenthepuppy/">< button className="btn">instagram</button></a> 
   
 </div>
-<div className='credit'> owned by <span> CINCO pups </span> | all rights reserved </div>
+<div className='credit'> owned by <span> VAB Cosmetics </span> | all rights reserved </div>
 
       
 </div>

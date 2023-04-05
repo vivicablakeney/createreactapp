@@ -7,23 +7,23 @@ function HeroSlider() {
   const slides = [
   {
   id: 0,
-  image: '/images/moyita.png',
+  image: '/images/scarlet.jpg',
   },
   {
   id: 1,
-      image: '/images/olsen.png',
+      image: '/images/stella.jpg',
     },
     {
       id: 2,
-      image: '/images/kyky.png' ,
+      image: '/images/leo.jpg' ,
     },
     {
       id: 3,
-      image: '/images/chicken.png' ,
+      image: '/images/nubia.jpg' ,
     },
     {
       id: 3,
-      image: '/images/gremlin.png' ,
+      image: '/images/Kween.jpg' ,
     },
   
   ];
@@ -41,24 +41,18 @@ function HeroSlider() {
       <div className="hero-slider">
       <div className='about'>
 <div class="content">
-<br></br><h3>meet<span> our pack </span></h3>
-<p>Meet the five pups who were the pivot of this company. 
-our pack includes 4 rescued mutts, and a english white lab.
-All 1 year apart. Samoa is the Alpha of the pack. They all enjoy group outings, such as hikes with their pawrents. 
-Each one of them has their own unique personality and quirk. The slide show is ordered from oldest to youngest.
-<h4>Samoa Michelle: Pitbull, 5yrs.</h4>
-<h4>Olsen Andres: English Lab, 4yrs </h4>
-<h4>KyloRen: Golden Retriever mix, 3yrs.</h4> 
-<h4>Sparow Alexander: SuperMutt, 2yrs.</h4>
-<h4>ReySkywalker: JackRussell Terrier Mix, 1yr</h4>
+<br></br><h3>Why<span> Our Company </span></h3>
+<p>Starting a makeup company VAB Cosmetics at the age of 17 in a dormitory may seem like a daunting task, but with a passion for makeup and determination, anything is possible. After practicing on friends and honing her skills, she became a professional makeup artist. Her love of makeup led her to design and come up with her own makeup formula. With the support of family and friends, her company grew quickly and became a great success. Through hard work and dedication, this young entrepreneur was able to turn her passion for makeup into a thriving business. Her story is an inspiration for anyone who wants to pursue their dreams and turn their passion into a career.
+
 </p>
-<button className='btn'>read more</button>
+{/* <button className='btn'>read more</button> */}
 </div>
 </div>
         <img src={slides[currentSlide].image} alt={slides[currentSlide].title} />
       </div>
     </div>
   );
+
 }
 
 export default HeroSlider;

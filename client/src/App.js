@@ -3,12 +3,12 @@ import React from 'react';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Plans from './pages/Plans';
-import Services from './pages/Services';
-import Shop from './pages/Shop';
-
+// import Services from './pages/Services';
+import Products from './pages/Products';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
+
 
 
 
@@ -21,9 +21,9 @@ function App() {
 
   <Routes>
        <Route path='/' element={ <Home/> }/>    
-       <Route path='/services' element={<Services/>}/> 
+       {/* <Route path='/services' element={<Services/>}/>  */}
        <Route path='/plans' element={<Plans/>}/>
-       <Route path='/shop' element={<Shop/>}/>
+       <Route path='/products' element={<Products/>}/>
        <Route path='/contact' element={< Contact/> }/> 
        </Routes>  
   
