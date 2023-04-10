@@ -23,7 +23,7 @@ db.connect(err =>{
 })
 
 app.get("/", (_req,res)=>{
-    res.json("hello")
+    res.json("helloVAB")
 })
 
 
