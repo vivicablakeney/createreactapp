@@ -1,13 +1,14 @@
 import React, {useState, useEffect} from 'react'
 import '../Styles.css/Contact.css';
 
-
+// usues use state hook to create four state variables to keep track of the values entered into each input field: 
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [number, setNumber] = useState('');
   const [message, setMessage] = useState('');
  
+  //function is called when the form is submitted. prevents the default form submission behavior using event.preventDefault(), which would normally refresh the page.
 
   const handleSubmit = (event) => {
     event.preventDefault();

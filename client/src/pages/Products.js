@@ -12,6 +12,10 @@ const Products = () => {
   const [price, setPrice] = useState("");
   const [sortOrder, setSortOrder] = useState('asc');
 
+
+  //The component uses the useState hook to create state variables to keep track of the current products, 
+  //minimum and maximum prices, selected category??, and sort order. 
+  //The setProducts function is used to update the Products state variable with the data fetched from a server using axios.
   useEffect(() => {
     const fetchAllProducts = async () => {
       try {

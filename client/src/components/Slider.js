@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles.css/Slider.css'
 
+// uses the "useState" and "useEffect" hooks from React to manage the state of the current slide 
+//and to set an interval to automatically advance the slideshow.
+
+//setCurrentSlide" function is used to update the state of the current slide,
+// and it is initially set to 0
 
 function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -28,7 +33,8 @@ function HeroSlider() {
   
   ];
   
-
+// "useEffect" hook is used to set an interval that calls the "setCurrentSlide" 
+//function every 5000 milliseconds (or 5 seconds)
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((currentSlide + 1) % slides.length);
